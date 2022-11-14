@@ -1,3 +1,5 @@
 .section {
-    font-family: sans-serif;
+    h1 {
+        font-size: theme('fontSize.xl');
+    }
 }
