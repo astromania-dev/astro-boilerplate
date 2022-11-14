@@ -1,9 +1,12 @@
-import styles from './Example.module.css';
+import React from 'react'
+import type { ReactElement } from 'react'
 
-export const Example = () => {
-    return (
-        <section className={styles.section}>
-            <h1>Hello, world!</h1>
-        </section>
-    )
+import styles from './Example.module.css'
+
+export const Example = (): ReactElement => {
+  return (
+    <section className={styles.section}>
+      <p>Hello, world!</p>
+    </section>
+  )
 }
